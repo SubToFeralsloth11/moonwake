@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/hub_world.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/world/hub_player.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/world/hub_hud.gd" id="3"]
+
+[node name="Hub" type="Node3D"]
+
+[node name="Player" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.05, 4)
+script = ExtResource("2")
+
+[node name="HubHUD" type="CanvasLayer" parent="."]
+script = ExtResource("3")
+
+[node name="World" type="Node3D" parent="."]
+script = ExtResource("1")
