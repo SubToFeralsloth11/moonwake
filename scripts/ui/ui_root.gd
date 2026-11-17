@@ -50,8 +50,9 @@ func _ready() -> void:
 	Profile.changed.connect(_refresh_top)
 	Profile.toast.connect(show_toast)
 	_refresh_top()
-	if not Profile.data.seen_intro:
-		await get_tree().create_timer(0.8).timeout
+	await get_tree().create_timer(0.8).timeout
+	var scene := get_tree().current_scene
+	if not Profile.data.seen_intro and scene and scene.scene_file_path.contains("hub"):
 		Game.open_screen("intro")
 
 

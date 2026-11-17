@@ -92,8 +92,8 @@ func setup(p_uid: int, p_id: String, back_id: String) -> void:
 	var band := _quad(Vector2(W - 0.03, 0.006), rcol, 1.5)
 	band.position = Vector3(0, 0.0005, 0.06)
 
-	_labels.name = _label(c.name, 34, Vector3(0, 0.001, -0.245), Color("f4ead2"), W - 0.08)
-	_labels.cost = _label(str(c.cost), 64, Vector3(-W / 2 + 0.05, 0.002, -H / 2 + 0.05), Color("9fe8ff"))
+	_labels.name = _label(c.name, 44, Vector3(0, 0.001, -0.245), Color("f4ead2"), W - 0.08)
+	_labels.cost = _label(str(c.cost), 110, Vector3(-W / 2 + 0.05, 0.002, -H / 2 + 0.05), Color("9fe8ff"))
 	_label("◆", 120, Vector3(-W / 2 + 0.05, 0.0012, -H / 2 + 0.05), Color("10304a"))
 	_labels.sun = _label("", 72, Vector3(-0.12, 0.002, 0.235), Color("ffd166"))
 	_labels.moon = _label("", 72, Vector3(0.12, 0.002, 0.235), Color("a9c8ff"))
@@ -162,8 +162,8 @@ func _label(t: String, size: int, pos: Vector3, color: Color, width := 0.0) -> L
 func set_values(sun: int, moon: int, active_sky: int, power := -999) -> void:
 	_labels.sun.text = str(sun)
 	_labels.moon.text = str(moon)
-	_labels.sun.font_size = 88 if active_sky == 0 else 60
-	_labels.moon.font_size = 88 if active_sky == 1 else 60
+	_labels.sun.font_size = 150 if active_sky == 0 else 100
+	_labels.moon.font_size = 150 if active_sky == 1 else 100
 	_labels.sun.modulate.a = 0.45 if active_sky == 1 else 1.0
 	_labels.moon.modulate.a = 0.45 if active_sky == 0 else 1.0
 	if power != -999 and active_sky >= 0:
