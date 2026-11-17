@@ -1,0 +1,365 @@
+=====================================================================
+                 MOONWAKE - COMPLETE HOW TO PLAY GUIDE
+=====================================================================
+
+CONTENTS
+  1. Quick start (first 5 minutes)
+  2. Controls
+  3. The harbor (hub) and what each place does
+  4. Duel rules (the card game)
+  5. Card abilities glossary
+  6. The 15 shrines
+  7. The 5 courts
+  8. Money: Shells and Glimmer
+  9. Buying packs, step by step
+ 10. Crafting and breaking cards, step by step
+ 11. Building a deck, step by step
+ 12. Campaign, step by step
+ 13. Tavern Ladder (ranked)
+ 14. Daily quests, collector milestones, card backs
+ 15. Strategy tips
+
+
+---------------------------------------------------------------------
+1. QUICK START
+---------------------------------------------------------------------
+ 1. Start the game. You begin with 300 Shells and a 12-card starter
+    deck called "Starter Tides".
+ 2. Walk (WASD) to the Notice Board and press E.
+ 3. Challenge the first opponent, Pip Barnacle.
+ 4. Win your duel to earn Shells.
+ 5. Walk to the Gilded Gull shop, press E, and buy a Harbor Pack
+    (100 Shells).
+ 6. Walk to the Cartographer's Desk (Deck Desk), press E, and swap
+    the new cards into your deck.
+ 7. Keep beating opponents to unlock new regions.
+
+
+---------------------------------------------------------------------
+2. CONTROLS
+---------------------------------------------------------------------
+ In the harbor:
+   W A S D / arrow keys   move
+   Shift                  sprint
+   Space                  jump
+   E                      interact (use the shop, desk, board, or a
+                          person)
+   Esc                    menu
+
+ In a duel:
+   Click a card in your hand, then click a shrine on your side to
+   play it there.
+   Click a card you just played (still face-down) to take it back.
+   "End Turn"             lock in your plays and reveal
+   "Ring the Moon Bell"   double the stakes
+   "Retreat"              give up now
+
+
+---------------------------------------------------------------------
+3. THE HARBOR (HUB)
+---------------------------------------------------------------------
+ Gilded Gull (shop)         buy card packs and card backs
+ Cartographer's Desk        build decks, craft cards, break cards
+                            into Glimmer
+ Notice Board               campaign opponents, Tavern Ladder,
+                            daily quests
+ Old Tactician              another way to open the campaign
+
+
+---------------------------------------------------------------------
+4. DUEL RULES
+---------------------------------------------------------------------
+ THE GOAL
+   There are 3 shrines on the table. A duel lasts 6 rounds. After
+   round 6, whoever has more power at a shrine wins that shrine.
+   Win 2 or more shrines to win the duel.
+   If you each win the same number of shrines, the higher total power
+   across all 3 shrines wins. If that is also tied, the duel is a draw.
+
+ CARDS
+   Every card has:
+     - a Glow cost (what it costs to play)
+     - a SUN value (power under the Sun)
+     - a MOON value (power under the Moon)
+     - sometimes an ability
+   Each shrine shows a sky, either Sun or Moon. A card only uses the
+   value that matches its shrine's sky.
+
+ DECKS AND HANDS
+   A deck is exactly 12 cards. You start each duel with 4 cards in
+   hand. Your hand holds at most 8; if it is full, you skip the draw.
+
+ THE SKIES
+   At the start, each shrine is randomly Sun or Moon, but never all 3
+   the same.
+
+ EACH ROUND
+   1. DRAW: each player draws 1 card.
+   2. GLOW: you get Glow equal to the round number (1, 2, 3, 4, 5, 6),
+      plus any bonus Glow from abilities. Unspent Glow does NOT carry
+      over to the next round.
+   3. PLAY: both players play cards face-down at the same time. A
+      shrine holds 4 cards per side unless its text says otherwise.
+      You can take back a card until you press End Turn.
+   4. REVEAL: the player winning more shrines reveals first (random if
+      tied). Cards flip one at a time and their "Reveal" abilities
+      trigger in that order.
+   5. DUSK (after rounds 1-5 only):
+        - "Dusk" abilities trigger (grow, fade, etc.)
+        - shrine dusk effects happen (Bonfire, Whirlpool)
+        - EVERY shrine's sky turns over: Sun becomes Moon and Moon
+          becomes Sun. Still Waters, Lighthouse Keeper, and "anchor"
+          cards stop this.
+        - Drifting cards move to another shrine.
+   After round 6 reveals, there is no dusk. The duel is scored.
+
+ THE MOON BELL (STAKES)
+   - The stake starts at x1.
+   - Ring the bell to double it (x2, x4, up to x8). The new stake
+     applies from the next round.
+   - Only one player can ring it each round.
+   - A bigger stake means more Shells for the winner and more Renown
+     won or lost on the Ladder.
+   - If you ring the bell, the AI may retreat.
+
+ RETREAT
+   Give up now and lose at the CURRENT stake instead of the doubled
+   one. Use it when a doubled duel is clearly lost.
+
+
+---------------------------------------------------------------------
+5. CARD ABILITIES
+---------------------------------------------------------------------
+ TIMING WORDS
+   Reveal:     happens once, when the card flips face-up
+   Ongoing:    always active while the card is on the table
+   Dusk:       happens at the end of each round (rounds 1-5)
+   When moved: happens when the card is pushed or drifts
+
+ REVEAL ABILITIES
+   Burn X         Enemy's strongest card here gets -X.
+   Burn all X     All enemy cards here get -X.
+   Burn wide X    Enemy's strongest card at EVERY shrine gets -X.
+   Boost X        Your other cards here get +X.
+   Rally X        Your other cards from the same court, at every
+                  shrine, get +X.
+   Sky-up         Gain +X if this shrine is under the named sky.
+   Draw X         Draw X cards.
+   Glow X         +X Glow next round.
+   Summon         Add token cards to this shrine (if there is room).
+   Slay           Destroy the enemy's weakest card here.
+   Push           Move the enemy's strongest card here to another
+                  shrine.
+   Scatter        Move EVERY enemy card here to other shrines.
+   Swap           Swap the Sun and Moon values of every card here
+                  (both sides).
+   Leech X        Take X power from the enemy's strongest card here
+                  and give it to this card.
+   Hand X         The cards in your hand get +X.
+   Still          This shrine's sky never turns again.
+   Devour         Destroy your own weakest other card here and add
+                  its values to this card.
+   Conjure        Add a specific card to your hand.
+   Mirror         Copy the values of the enemy's strongest card here.
+   Flip           Turn this shrine's sky.
+   Flip other     Turn the skies of the other two shrines.
+   Dawn           Every shrine turns to Sun.
+   Night          Every shrine turns to Moon.
+
+ ONGOING ABILITIES
+   Aura X         Your other cards here get +X.
+   Court aura X   Your other cards from the same court, everywhere,
+                  get +X.
+   Sky X          +X while this shrine is under the named sky.
+   Lone X         +X if it is your only card here.
+   Crowd X        +X for each other card you have here.
+   High           Always uses its higher value.
+   Anchor         This shrine's sky can't turn.
+
+ DUSK ABILITIES
+   Grow X         Gain +X.
+   Grow sky X     Gain +X on the value of the current sky.
+   Drift          Move to another shrine.
+   Tidal X        Gain +X whenever this shrine's sky turns.
+   Rouse X        Your other cards here get +X.
+   Fade X         Lose X.
+   Burn X         A random enemy card here gets -X.
+
+ Power can't go below 0 for devour, but burns can push a card's
+ values into negative numbers.
+
+
+---------------------------------------------------------------------
+6. THE 15 SHRINES (3 are picked at random each duel)
+---------------------------------------------------------------------
+ Quiet Shrine      No effect.
+ Sunwell           Cards here get +2 under the Sun.
+ Moonpool          Cards here get +2 under the Moon.
+ Still Waters      This shrine's sky never turns.
+ Whirlpool         At dusk, each side's weakest card here is destroyed.
+ Ember Altar       Ember cards here get +2.
+ Coral Gate        Tide cards here get +2.
+ Elder Root        Grove cards here get +2.
+ Windspire         Gale cards here get +2.
+ Narrow Pass       Only 2 cards per side.
+ Lonely Peak       Only 1 card per side.
+ Lantern Market    Cards played here cost 1 less.
+ Restless Tide     Its sky turns every time a card is revealed here.
+ Bonfire           At dusk, every card here gets +1.
+ Mirror Lake       Cards here always use their higher value.
+ (A duel never has both Narrow Pass and Lonely Peak.)
+
+
+---------------------------------------------------------------------
+7. THE 5 COURTS
+---------------------------------------------------------------------
+ Ember Court  (orange)  Blazing under the Sun. Burns enemy cards down.
+ Tide Court   (blue)    Strong under the Moon. Turns the skies.
+ Grove Court  (green)   Starts small, grows every dusk, crowds the
+                        shrine.
+ Gale Court   (lilac)   Restless. Moves between shrines and pushes
+                        foes away.
+ Wildlings    (gold)    Strange wanderers that bend the rules.
+
+ Rarities: Common (grey), Rare (blue), Epic (purple), Mythic (orange).
+ There are 100 collectible cards.
+
+
+---------------------------------------------------------------------
+8. MONEY
+---------------------------------------------------------------------
+ SHELLS: the main currency. Spend them on packs and card backs.
+   You start with 300.
+   Ways to earn them:
+     - Win a campaign duel: opponent's reward x stake.
+       First win against an opponent: extra bonus + their reward card.
+       Rematch wins pay half.
+     - Win a Ladder duel: opponent's reward x stake.
+     - Lose: 10 Shells.   Draw: 20 Shells.
+     - Daily quests: 40-90 Shells each.
+     - Collector milestones and Ladder rank rewards.
+
+ GLIMMER: crafting dust. Use it to craft the exact card you want.
+   Ways to earn it:
+     - Pull a card you already own at the maximum copies: it turns
+       into Glimmer automatically.
+     - Break (disenchant) cards you don't want.
+     - Collector milestones.
+
+
+---------------------------------------------------------------------
+9. BUYING PACKS, STEP BY STEP
+---------------------------------------------------------------------
+ 1. In the harbor, walk to the Gilded Gull shop.
+ 2. When "Browse the Gilded Gull" appears, press E.
+ 3. Pick a pack:
+      Harbor Pack    100 Shells  5 cards from any court, at least
+                                 1 Rare or better
+      Ember Pack     140 Shells  5 Ember cards, at least 1 Rare+
+      Tide Pack      140 Shells  5 Tide cards, at least 1 Rare+
+      Grove Pack     140 Shells  5 Grove cards, at least 1 Rare+
+      Gale Pack      140 Shells  5 Gale cards, at least 1 Rare+
+      Moonlit Pack   450 Shells  5 cards, at least 2 Epic or better,
+                                 higher Mythic chance
+ 4. Click to buy. The pack opens and shows each card. "NEW" marks a
+    card you didn't own; extra copies over the limit show as Glimmer.
+ 5. Close the shop. Your cards are now in your collection; go put them
+    in a deck (section 11).
+ Tip: when you know which court you want, buy that court's pack.
+
+
+---------------------------------------------------------------------
+10. CRAFTING AND BREAKING CARDS, STEP BY STEP
+---------------------------------------------------------------------
+ Craft costs (Glimmer):   Common 20 | Rare 60 | Epic 200 | Mythic 800
+ Break value (Glimmer):   Common 5  | Rare 15 | Epic 50  | Mythic 200
+ Max copies you can own:  Common 2  | Rare 2  | Epic 2   | Mythic 1
+
+ TO CRAFT:
+ 1. Walk to the Cartographer's Desk and press E.
+ 2. Find a card you don't own yet, or own fewer than the max copies of.
+ 3. Click "Craft" (it shows the Glimmer cost).
+ TO BREAK (DISENCHANT):
+ 1. At the same desk, pick a card you own.
+ 2. Break it to get Glimmer. If a deck no longer has enough copies of
+    that card, the card is removed from that deck.
+
+
+---------------------------------------------------------------------
+11. BUILDING A DECK, STEP BY STEP
+---------------------------------------------------------------------
+ 1. Walk to the Cartographer's Desk and press E.
+ 2. Click cards in your collection to add them; click cards in the
+    deck to remove them.
+ 3. A deck must have EXACTLY 12 cards, and you can only use copies
+    you own (max 2 of a card, 1 for Mythics).
+ 4. You can save several decks. Set one as active; the active deck is
+    the one you take into duels.
+ Good deck shape: about 4 cards that cost 1-2, 4 that cost 3-4, and
+ 4 that cost 5-6, using 1 or 2 courts.
+
+
+---------------------------------------------------------------------
+12. CAMPAIGN, STEP BY STEP
+---------------------------------------------------------------------
+ 1. Go to the Notice Board (or talk to the Old Tactician) and press E.
+ 2. There are 6 regions with 5 opponents each (30 total):
+      The Harbor Steps -> Emberreach Forge -> Tidehollow Grotto ->
+      The Grovewild -> Galespire Heights -> The Eclipse Court
+ 3. Beat opponents in order. Beating one unlocks the next.
+ 4. Beat all 5 in a region to unlock the next region.
+ 5. Your first win against each opponent gives bonus Shells, and most
+    also give a reward card.
+ 6. Each region's fifth opponent is its boss. Opponents in later
+    regions are smarter and have stronger decks.
+
+
+---------------------------------------------------------------------
+13. TAVERN LADDER (RANKED)
+---------------------------------------------------------------------
+ 1. On the Notice Board, click "Tavern Ladder duel vs a random rival".
+ 2. Win: +2 Renown x stake.   Lose: -1 Renown x stake.   Draw: no
+    change.
+ 3. Every 6 Renown = 1 rank. Ranks go from 0 to 50.
+    Titles: Deckhand, Bosun, Navigator, Captain, Admiral (each I-X),
+    then Tidewright at rank 50.
+ 4. Every 5th rank gives bonus Shells. Every 10th rank gives Shells
+    and a free pack (a Moonlit Pack from rank 30 up).
+ 5. Rivals get smarter as your rank goes up.
+
+
+---------------------------------------------------------------------
+14. QUESTS, MILESTONES, AND CARD BACKS
+---------------------------------------------------------------------
+ DAILY QUESTS: you get 3 new quests every day (see the Notice
+ Board). Each pays Shells automatically when it's finished. Examples:
+   Win 2 duels (60), Play 20 cards (50), Play 8 cards of one court
+   (50), Win after the Moon Bell rang (70), Win all 3 shrines (90),
+   Destroy 3 enemy cards (50), Open a pack (40), Play 3 Ladder duels
+   (60).
+
+ COLLECTOR MILESTONES: every 10 different cards you own earns bonus
+ Shells and Glimmer, and the reward grows with each milestone.
+
+ CARD BACKS (cosmetic only, bought at the Gilded Gull):
+   Harbor Classic free | Forge Flame 250 | Deep Current 250 |
+   Mossy Bark 250 | Cloudsail 250 | Starry Night 600 |
+   Royal Eclipse 1200
+
+
+---------------------------------------------------------------------
+15. STRATEGY TIPS
+---------------------------------------------------------------------
+ - Spend all your Glow every round; leftover Glow is wasted.
+ - You only need 2 shrines. Give up the hardest one and put your
+   cards on the other two.
+ - THE BIG ONE: skies turn at every dusk, but not after round 6. In
+   round 6, play for the sky you can see. In earlier rounds, the sky
+   will change before the final count.
+ - Sun cards (Ember) like Sunwell; Moon cards (Tide) like Moonpool.
+   Mirror Lake makes the sky not matter.
+ - Revealing second is an advantage: your Burns and Pushes hit cards
+   that are already revealed.
+ - Ring the bell when you're clearly ahead. Retreat when a doubled
+   duel is lost.
+ - Save your big 5-6 cost cards for rounds 5 and 6.
